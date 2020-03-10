@@ -1,8 +1,9 @@
-\documentclass[dvipdfmx,10pt,notheorems]{beamer}
+\documentclass[aspectratio=169,dvipdfmx,10pt,notheorems]{beamer}
 %%%% 和文用 %%%%%
 \usepackage{bxdpx-beamer}
-\usepackage{pxjahyper}
-\usepackage{minijs}%和文用
+\usepackage{helvet}
+\usepackage{pxjahyper}% 日本語で'しおり'したい
+\usepackage{minijs}% min10ヤダ
 \renewcommand{\kanjifamilydefault}{\gtdefault}%和文用
 
 %%%% スライドの見た目 %%%%%
@@ -29,15 +30,6 @@
 \newtheorem*{remark}{Remark}
 \renewcommand{\proofname}{}
 %%%%%%%%%
-
-%%%%% フォント基本設定 %%%%%
-\usepackage[T1]{fontenc}%8bit フォント
-\usepackage{textcomp}%欧文フォントの追加
-\usepackage[utf8]{inputenc}%文字コードをUTF-8
-\usepackage{otf}%otfパッケージ
-\usepackage{lxfonts}%数式・英文ローマン体を Lxfont にする
-\usepackage{bm}%数式太字
-%%%%%%%%%%
  
 \title[略タイトル]{\LaTeX +Beamer でスライドを作ろう！}%[略タイトル]{タイトル}
 \author[Xaro]{Xaro Cydeykn}%[略名前]{名前}
